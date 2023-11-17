@@ -1,0 +1,6 @@
+Assets/Models/BaseRoom/互動360_11211113.FBX filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Bed/Bed[[:space:]]Collection02.FBX filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Livingroom/Sofa/SFC12/SFC12.FBX filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Livingroom/Sofa/SL56/SL56.FBX filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/MainScene/LightingData.asset filter=lfs diff=lfs merge=lfs -text
+Assets/Models/BaseRoom/互動360_1121113.FBX filter=lfs diff=lfs merge=lfs -text

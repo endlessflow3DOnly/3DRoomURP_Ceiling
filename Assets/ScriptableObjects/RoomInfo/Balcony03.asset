@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac0b24bd4f38c54d9fecb4b84c5a3a9, type: 3}
+  m_Name: Balcony03
+  m_EditorClassIdentifier: 
+  RoomName: "\u967D\u53F0\u4E09"
+  Spr_MainTex: {fileID: 21300000, guid: 98f5d28607fa58d449c79d384c1f3826, type: 3}
+  teleportRoomPlace: 8
+  TelportPos: {x: -6.17, y: 1.7, z: 3.65}
+  TelportRot: {x: -0.022413079, y: 0.7485213, z: -0.026768101, w: -0.6621911}
