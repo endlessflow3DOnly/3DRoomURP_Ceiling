@@ -31,6 +31,8 @@ public class UI_MiniMapManager : MonoBehaviour
     [Header("移動變量等比縮放")]
     [SerializeField] float scaleFactor = 0.66f;
 
+    public bool isEnable;
+
     private RectTransform playerIconRectTransform; // playerIcon 的 RectTransform
 
     public void Init()
@@ -60,15 +62,6 @@ public class UI_MiniMapManager : MonoBehaviour
         CameraManager.MiniMapCamera.enabled = true;
 
         //MinimapCamera.targetTexture.Release();
-
-        InvokeRepeating(nameof(ResetAndRelease), 1f, 1f);
-    }
-
-    void ResetAndRelease()
-    {
-        /*MinimapCamera.targetTexture.Release();
-        Resources.UnloadUnusedAssets();
-        MinimapCamera.targetTexture = RenderTexture;*/
     }
 
     void Update()
@@ -121,11 +114,6 @@ public class UI_MiniMapManager : MonoBehaviour
     {
         EnableBtns_MiniMapExclamationMark(isShow);
         UI_MiniMap.SetActive(isShow);
-
-        if (isShow == false)
-        {
-            ResetAndRelease();
-        }
     }
 
     /// <summary>
